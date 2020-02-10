@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="scratch3.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1000">
+      <stop
+         style="stop-color:#786721;stop-opacity:1;"
+         offset="0"
+         id="stop996" />
+      <stop
+         style="stop-color:#786721;stop-opacity:0;"
+         offset="1"
+         id="stop998" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter938">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood928" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite930" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0.6"
+         result="blur"
+         id="feGaussianBlur932" />
+      <feOffset
+         dx="0.5"
+         dy="-0.5"
+         result="offset"
+         id="feOffset934" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite936" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient1002"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.6855219,-1.4917813e-5)" />
+    <filter
+       inkscape:label="Glowing Bubble"
+       inkscape:menu="Ridges"
+       inkscape:menu-tooltip="Bubble effect with refraction and glow"
+       x="-0.25"
+       y="-0.25"
+       width="1.5"
+       height="1.5"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1037">
+      <feGaussianBlur
+         stdDeviation="1"
+         result="result1"
+         id="feGaussianBlur1013" />
+      <feGaussianBlur
+         stdDeviation="10"
+         result="result6"
+         in="result1"
+         id="feGaussianBlur1015" />
+      <feComposite
+         operator="atop"
+         in="result6"
+         in2="result1"
+         result="result8"
+         id="feComposite1017" />
+      <feComposite
+         operator="xor"
+         result="fbSourceGraphic"
+         in="result6"
+         in2="result8"
+         id="feComposite1019" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 2 0 "
+         id="feColorMatrix1021" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphicAlpha"
+         stdDeviation="1"
+         id="feGaussianBlur1023" />
+      <feSpecularLighting
+         specularExponent="35"
+         specularConstant="1.5"
+         surfaceScale="-2"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting1027">
+        <feDistantLight
+           azimuth="230"
+           elevation="60"
+           id="feDistantLight1025" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphicAlpha"
+         id="feComposite1029" />
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite1031" />
+      <feComposite
+         operator="atop"
+         in="result9"
+         in2="result4"
+         result="result91"
+         id="feComposite1033" />
+      <feBlend
+         mode="multiply"
+         in2="result91"
+         id="feBlend1035" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient1074"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.68479141,0,0,0.68479141,41.372278,43.291528)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6209">
+      <circle
+         r="21.166666"
+         style="display:inline;opacity:0.98999999;fill:#359937;fill-opacity:1;stroke:url(#linearGradient6213);stroke-width:0.16744418;stroke-opacity:1"
+         cy="151.10786"
+         cx="91.407097"
+         id="circle6211" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient6213"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-45.193879,13.765332)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6215">
+      <circle
+         r="21.166666"
+         style="display:inline;opacity:0.98999999;fill:#359937;fill-opacity:1;stroke:url(#linearGradient6219);stroke-width:0.16744418;stroke-opacity:1"
+         cy="164.38161"
+         cx="91.407097"
+         id="circle6217" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient6219"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-45.193879,27.039068)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6221">
+      <circle
+         r="21.166666"
+         style="display:inline;opacity:0.98999999;fill:#359937;fill-opacity:1;stroke:url(#linearGradient6225);stroke-width:0.16744418;stroke-opacity:1"
+         cy="177.65533"
+         cx="91.407097"
+         id="circle6223" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient6225"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-45.193879,40.312803)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6227">
+      <circle
+         r="21.166666"
+         style="display:inline;opacity:0.98999999;fill:#359937;fill-opacity:1;stroke:url(#linearGradient6231);stroke-width:0.16744418;stroke-opacity:1"
+         cy="190.92908"
+         cx="91.407097"
+         id="circle6229" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient6231"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-45.193879,53.586539)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6233">
+      <circle
+         r="21.166666"
+         style="display:inline;opacity:0.98999999;fill:#359937;fill-opacity:1;stroke:url(#linearGradient6237);stroke-width:0.16744418;stroke-opacity:1"
+         cy="190.92908"
+         cx="91.407097"
+         id="circle6235" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient6237"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-45.193879,53.586539)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9929">
+      <circle
+         r="21.166666"
+         style="opacity:1;fill:#359937;fill-opacity:1;stroke:url(#linearGradient9933);stroke-width:0.16744418;stroke-opacity:1"
+         cy="146.92911"
+         cx="184.56906"
+         id="circle9931"
+         transform="rotate(10)" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1000"
+       id="linearGradient9933"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(47.96808,9.5865675)"
+       x1="115.35059"
+       y1="137.34258"
+       x2="157.85137"
+       y2="137.34258" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5222222"
+     inkscape:cx="510.08867"
+     inkscape:cy="603.19438"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="578"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="base"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:#786721;stroke-width:0.56692916;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1037)"
+       d="m 516.28711,429.08984 a 90,90 0 0 0 -90,90 90,90 0 0 0 90,90 90,90 0 0 0 90,-90 90,90 0 0 0 -90,-90 z m 0,10 a 79.999998,79.999998 0 0 1 80,80 79.999998,79.999998 0 0 1 -80,80 79.999998,79.999998 0 0 1 -80,-80 79.999998,79.999998 0 0 1 80,-80 z"
+       transform="matrix(0.26458333,0,0,0.26458333,-1.6855105,0)"
+       id="path3713"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="inset"
+     style="display:inline">
+    <circle
+       id="circle984"
+       cx="134.91545"
+       cy="137.34251"
+       style="opacity:1;fill:#359937;fill-opacity:1;stroke:url(#linearGradient1002);stroke-width:0.16744418;stroke-opacity:1"
+       r="21.166666" />
+    <text
+       id="text6099"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#786721;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"
+       x="92.570068"
+       y="169.29819"
+       clip-path="url(#clipPath6233)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#786721;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="tspan6095">SCRATCH SCRATCH SCRATCH</tspan></text>
+    <g
+       id="g6259"
+       transform="rotate(-30,13.1674,82.948099)"
+       style="opacity:1;fill:none;stroke:#005500;stroke-opacity:1">
+      <g
+         clip-path="url(#clipPath6227)"
+         id="g6122"
+         style="fill:none;stroke:#005500;stroke-opacity:1">
+        <text
+           y="175.93504"
+           x="91.341019"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="text6104"><tspan
+             id="tspan6102"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SCRATCH SCRATCH SCRATCH SCRATCH</tspan></text>
+        <text
+           y="169.29819"
+           x="92.570068"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="text6108"><tspan
+             id="tspan6106"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SCRATCH SCRATCH SCRATCH</tspan></text>
+      </g>
+      <g
+         clip-path="url(#clipPath6221)"
+         transform="translate(0,13.273736)"
+         id="g6132"
+         style="fill:none;stroke:#005500;stroke-opacity:1">
+        <text
+           id="text6126"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"
+           x="91.341019"
+           y="175.93504"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan6124">SCRATCH SCRATCH SCRATCH SCRATCH</tspan></text>
+        <text
+           id="text6130"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"
+           x="92.570068"
+           y="169.29819"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan6128">SCRATCH SCRATCH SCRATCH</tspan></text>
+      </g>
+      <g
+         clip-path="url(#clipPath6215)"
+         transform="translate(0,26.547471)"
+         id="g6142"
+         style="fill:none;stroke:#005500;stroke-opacity:1">
+        <text
+           id="text6136"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"
+           x="91.341019"
+           y="175.93504"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan6134">SCRATCH SCRATCH SCRATCH SCRATCH</tspan></text>
+        <text
+           id="text6140"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"
+           x="92.570068"
+           y="169.29819"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="tspan6138">SCRATCH SCRATCH SCRATCH</tspan></text>
+      </g>
+      <g
+         clip-path="url(#clipPath6209)"
+         id="g6152"
+         transform="translate(0,39.821207)"
+         style="fill:none;stroke:#005500;stroke-opacity:1">
+        <text
+           y="175.93504"
+           x="91.341019"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="text6146"><tspan
+             id="tspan6144"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SCRATCH SCRATCH SCRATCH SCRATCH</tspan></text>
+        <text
+           y="169.29819"
+           x="92.570068"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="text6150"><tspan
+             id="tspan6148"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:none;fill-opacity:1;stroke:#005500;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">SCRATCH SCRATCH SCRATCH</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="codeclub">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111126px;line-height:1.25;font-family:Aparajita;-inkscape-font-specification:'Aparajita, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+       id="text1007"
+       transform="rotate(-18,134.25737,143.43236)"><textPath
+         xlink:href="#circle1072"
+         startOffset="50%"
+         id="textPath4811"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111126px;font-family:Aparajita;-inkscape-font-specification:'Aparajita, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+   id="tspan1005">Code Club</tspan></textPath></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="title">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;line-height:1.25;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke:#786721;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="text1057"
+       transform="rotate(143,134.97013,137.39917)"><textPath
+         xlink:href="#circle1072"
+         startOffset="50%"
+         id="textPath1080"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.53107691px;font-family:Impact;-inkscape-font-specification:'Impact Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#786721;stroke-width:0.15000001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   id="tspan1055">SCRATCH</tspan></textPath></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="image">
+    <image
+       y="158.48886"
+       x="131.88834"
+       id="image9836"
+       xlink:href="data:image/png;base64,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
+"
+       style="display:inline;image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="58.778961"
+       width="47.023167"
+       transform="rotate(-10,-79.614415,278.97834)"
+       clip-path="url(#clipPath9929)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="subtitle">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1041"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion1043"><rect
+           id="rect1045"
+           width="319.28571"
+           height="242.14285"
+           x="367.85715"
+           y="409.66254" /></flowRegion><flowPara
+         id="flowPara1047" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="134.91545"
+       y="116.17585"
+       id="text1063"><tspan
+         sodipodi:role="line"
+         id="tspan1061"
+         x="134.91545"
+         y="125.53962"
+         style="stroke-width:0.26458332" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="stars">
+    <g
+       id="g990"
+       transform="translate(-1.6855307,0.66817381)">
+      <path
+         transform="matrix(1,0,0,-1,30.49104,35.279578)"
+         sodipodi:type="star"
+         style="opacity:1;fill:#fac800;fill-opacity:1;fill-rule:evenodd;stroke:#786721;stroke-width:0.15000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         id="path826"
+         sodipodi:sides="5"
+         sodipodi:cx="106.106"
+         sodipodi:cy="-117.62095"
+         sodipodi:r1="2.7544487"
+         sodipodi:r2="6.120997"
+         sodipodi:arg1="0.94039491"
+         sodipodi:arg2="1.5687134"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 107.72967,-115.39593 -1.61092,3.89596 -1.62713,-3.88922 -4.20308,-0.32815 3.19606,-2.74932 -0.98674,-4.09877 3.60241,2.19004 3.59324,-2.20503 -0.96965,4.10285 3.20748,2.73598 z"
+         inkscape:transform-center-x="0.0039411055"
+         inkscape:transform-center-y="0.58075329" />
+      <path
+         transform="matrix(1,0,0,-1,30.49104,35.279578)"
+         inkscape:transform-center-y="0.58075329"
+         inkscape:transform-center-x="0.0039411055"
+         d="m 106.17817,-117.52206 -0.0594,6.02209 -0.0845,-6.02179 -5.74571,1.80442 5.70096,-1.9412 -3.49164,-4.90689 3.60789,4.82206 3.58776,-4.83705 -3.47116,4.9214 5.70899,1.91743 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5687134"
+         sodipodi:arg1="0.94039491"
+         sodipodi:r2="6.120997"
+         sodipodi:r1="0.12241994"
+         sodipodi:cy="-117.62095"
+         sodipodi:cx="106.106"
+         sodipodi:sides="5"
+         id="path824"
+         style="opacity:1;fill:#c8ab37;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         sodipodi:type="star" />
+    </g>
+    <g
+       transform="translate(4.1455477,-3.9656313)"
+       id="g9951">
+      <path
+         inkscape:transform-center-y="0.58075329"
+         inkscape:transform-center-x="0.0039411055"
+         d="m 107.72967,-115.39593 -1.61092,3.89596 -1.62713,-3.88922 -4.20308,-0.32815 3.19606,-2.74932 -0.98674,-4.09877 3.60241,2.19004 3.59324,-2.20503 -0.96965,4.10285 3.20748,2.73598 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5687134"
+         sodipodi:arg1="0.94039491"
+         sodipodi:r2="6.120997"
+         sodipodi:r1="2.7544487"
+         sodipodi:cy="-117.62095"
+         sodipodi:cx="106.106"
+         sodipodi:sides="5"
+         id="path9947"
+         style="opacity:1;fill:#fac800;fill-opacity:1;fill-rule:evenodd;stroke:#786721;stroke-width:0.15000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         sodipodi:type="star"
+         transform="matrix(1,0,0,-1,30.49104,35.279578)" />
+      <path
+         sodipodi:type="star"
+         style="opacity:1;fill:#c8ab37;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         id="path9949"
+         sodipodi:sides="5"
+         sodipodi:cx="106.106"
+         sodipodi:cy="-117.62095"
+         sodipodi:r1="0.12241994"
+         sodipodi:r2="6.120997"
+         sodipodi:arg1="0.94039491"
+         sodipodi:arg2="1.5687134"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 106.17817,-117.52206 -0.0594,6.02209 -0.0845,-6.02179 -5.74571,1.80442 5.70096,-1.9412 -3.49164,-4.90689 3.60789,4.82206 3.58776,-4.83705 -3.47116,4.9214 5.70899,1.91743 z"
+         inkscape:transform-center-x="0.0039411055"
+         inkscape:transform-center-y="0.58075329"
+         transform="matrix(1,0,0,-1,30.49104,35.279578)" />
+    </g>
+    <g
+       id="g9963"
+       transform="translate(9.9766261,-8.5994364)">
+      <path
+         transform="matrix(1,0,0,-1,30.49104,35.279578)"
+         sodipodi:type="star"
+         style="opacity:1;fill:#fac800;fill-opacity:1;fill-rule:evenodd;stroke:#786721;stroke-width:0.15000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         id="path9959"
+         sodipodi:sides="5"
+         sodipodi:cx="106.106"
+         sodipodi:cy="-117.62095"
+         sodipodi:r1="2.7544487"
+         sodipodi:r2="6.120997"
+         sodipodi:arg1="0.94039491"
+         sodipodi:arg2="1.5687134"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 107.72967,-115.39593 -1.61092,3.89596 -1.62713,-3.88922 -4.20308,-0.32815 3.19606,-2.74932 -0.98674,-4.09877 3.60241,2.19004 3.59324,-2.20503 -0.96965,4.10285 3.20748,2.73598 z"
+         inkscape:transform-center-x="0.0039411055"
+         inkscape:transform-center-y="0.58075329" />
+      <path
+         transform="matrix(1,0,0,-1,30.49104,35.279578)"
+         inkscape:transform-center-y="0.58075329"
+         inkscape:transform-center-x="0.0039411055"
+         d="m 106.17817,-117.52206 -0.0594,6.02209 -0.0845,-6.02179 -5.74571,1.80442 5.70096,-1.9412 -3.49164,-4.90689 3.60789,4.82206 3.58776,-4.83705 -3.47116,4.9214 5.70899,1.91743 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5687134"
+         sodipodi:arg1="0.94039491"
+         sodipodi:r2="6.120997"
+         sodipodi:r1="0.12241994"
+         sodipodi:cy="-117.62095"
+         sodipodi:cx="106.106"
+         sodipodi:sides="5"
+         id="path9961"
+         style="opacity:1;fill:#c8ab37;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.26499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter938)"
+         sodipodi:type="star" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="hidden"
+     style="display:none">
+    <circle
+       r="14.494751"
+       style="display:inline;opacity:0.98999999;fill:#ff0000;fill-opacity:1;stroke:url(#linearGradient1074);stroke-width:0.11466435;stroke-opacity:1"
+       cy="137.34251"
+       cx="134.91545"
+       id="circle1072" />
+  </g>
+</svg>
